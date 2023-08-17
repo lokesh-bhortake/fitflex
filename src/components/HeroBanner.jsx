@@ -5,10 +5,10 @@ import HeroBannerImage from '../assets/images/banner.png'
 const HeroBanner = () => {
   const handleScroll = () => {
     const targetElement = document.getElementById("exercises");
-    if (targetElement) {
-      targetElement.scrollIntoView({ behavior: "smooth" });
+        if (targetElement) {
+          targetElement.scrollIntoView({ behavior: "smooth" });
+        }
     }
-  }
   return (
     <Box sx={{
       mt: { lg: "132px", xs: "70px"}, 
