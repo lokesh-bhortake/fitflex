@@ -36,8 +36,12 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
       );
 
       setSearch('');
-      setExercises(searchedExercises)
-      handleScroll()      
+      if (searchedExercises.length === 0) {
+        alert('No exercises found. Please try a different search.');
+      } else {
+        setExercises(searchedExercises);
+        handleScroll();
+      }      
     }
   }
 

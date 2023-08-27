@@ -7,7 +7,7 @@ const SubscriptionPlans = () => {
   return (
     <Box
       sx={{
-        mt: { xs: '120px' , lg: '50px' },
+        mt: { xs: '120px' , lg: '80px' },
         ml: { xs: '40px' },
         mr: { xs: '40px' },
         mb: { xs: '40px' }
@@ -20,9 +20,9 @@ const SubscriptionPlans = () => {
       <Stack
         alignItems='flex-start'
         sx={{
-          flexDirection: { xs: 'column', md: 'row' },
-          gap: { xs: '20px', md: '20px' },
-          mt: '30px',
+          flexDirection: { xs: 'column', lg: 'row' },
+          gap: { xs: '20px', md: '30px' },
+          mt: '40px',
         }}
       >
         {

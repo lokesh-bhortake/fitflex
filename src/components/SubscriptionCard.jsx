@@ -32,7 +32,7 @@ const SubscriptionCard = ({ plan }) => {
         sx={{
             color: 'white',
             bgcolor: '#FF2625',
-            borderRadius: '20px',
+            borderRadius: '10px',
             border: 'none',        
             mt: { xs: '20px', md: '40px', lg: '60px' },
             '&:hover': {
