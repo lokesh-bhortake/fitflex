@@ -23,6 +23,7 @@ const SubscriptionPlans = () => {
           flexDirection: { xs: 'column', lg: 'row' },
           gap: { xs: '20px', md: '30px' },
           mt: '40px',
+          display: 'flex' ,
         }}
       >
         {

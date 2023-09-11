@@ -6,12 +6,8 @@ const SubscriptionCard = ({ plan }) => {
     window.open(plan.link, '_blank')
   }
   return (
-    <Stack padding={['20px', '40px']}>
-      <Box 
-        sx={{
-          height: '100%',
-        }}
-      >
+    <Stack display='flex' flexDirection='column' padding={['20px', '40px']} sx={{height: {lg:'816px', md: '608px'}}}>
+      <Box display='flex' flexDirection='column' justifyContent='flex-start' sx={{height: '100%'}}>
         <Typography variant='h4' color='#000' mb='15px'>
           {plan.title}
         </Typography>
@@ -38,6 +34,7 @@ const SubscriptionCard = ({ plan }) => {
             '&:hover': {
                 bgcolor: '#FF5B5B',
             },
+            justifySelf: 'end'
         }}
       >
         <Typography>Join Now <br /> {plan.price}</Typography>
