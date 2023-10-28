@@ -11,6 +11,7 @@ FitFlex Gym Website is a frontend project built with React, MaterialUI, RapidAPI
 - [APIs Used](#apis-used)
 - [Installation](#installation)
 - [Setting Up Stripe Payments](#setting-up-stripe-payments)
+- [Testing payments](#testing-stripe-payments)
 - [Contributing](#contributing)
 - [Contact](#contact)
 
@@ -64,6 +65,13 @@ To accept payments through the FitFlex Gym Website, you need to set up your Stri
 
 3. **Test Payments:**
    Use Stripe's test mode for verification before going live. Update links for test/live modes and ensure plans/pricing match those in your Stripe account.
+
+## Testing Stripe Payments
+
+For test purposes you can use following card number(s) for testing the payments. You can put random information of user as it's hosted for test purposes as it's a personal project.
+Card number - 4000003560000008
+
+Or you can click [here](https://stripe.com/docs/testing?testing-method=card-numbers) for testing payments from different cards.
 
 ## Contributing
 
